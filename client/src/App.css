@@ -1,0 +1,92 @@
+.welcomemessage {
+    text-align: center;
+    margin-left: 406px;
+    margin-right: 300px;
+    color: green;
+    filter: blur(2px);
+
+}
+.welcomemessagetop {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 406px;
+    margin-right: 300px;
+    color: green;
+    filter: blur(2px);
+
+}
+
+.swal2-popup {
+    font-size: 0.8rem !important;
+    font-family: Georgia, serif;
+  }
+  .swal2-html-container {
+    font-weight: bolder;
+  }
+  .css-nkchhw {
+    padding: 0px 10px 0px 10px !important;
+  }
+  .css-99a237 {
+    padding: 0px 15px 0px 15px !important;
+
+  }
+  .css-1mzjib9 {
+    min-height: 4.75rem !important
+  }
+  .css-1v82jjv {
+    padding-top: 23px !important; 
+  }
+
+  .css-p6siio {
+    padding-top: 23px !important; 
+  }
+
+  .cardmargin {
+    margin: 5px 10px 5px 10px !important;
+    
+  }
+
+  .MuiAppBar-root {
+    z-index: 25 !important;
+  }
+  .MuiCardMedia-root {
+    min-height: 120px !important;
+    max-height: 120px !important;
+
+  }
+
+  .addbutton {
+    background-color: #4CAF50;
+    border-radius:5px !important;
+  color: white;
+  padding: 5px;
+  }
+  .removebutton {
+    background-color: #a71106;
+    border-radius:5px !important;
+  color: white;
+  padding:5px;
+  }
+  .renderimage {
+    max-width: 150px !important;
+    max-height: 100px !important;
+  }
+
+  .addselect {
+    margin-top:5px !important;    
+    margin-bottom: -10px !important;    
+    max-width:200px !important;
+    max-height: 45px !important;
+  }
+
+  .editpropertyimg {
+    max-height: 100px !important;
+    max-width: 100px !important;
+
+  }
+  .rediousModel {
+    border-radius: 25px !important;
+  }
+  .bammerArea {
+    max-height: 100px;
+  }

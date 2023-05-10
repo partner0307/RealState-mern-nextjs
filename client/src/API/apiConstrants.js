@@ -1,0 +1,26 @@
+export const API_URL = 'http://localhost:6767';
+export const apiConstants = {
+  BASE_URL: API_URL,
+  LOGIN_API: API_URL + '/user/login',
+  REGISTRATION_URL: API_URL + '/user/register',
+  USERUPDATE: API_URL + '/user/usersupdate',
+  LISTUSERS: API_URL + '/user/users',
+  USER_REGISTRATION_URL: API_URL + '/user/registeradmin',
+  USER_UPDATE_URL: API_URL + '/user/updateUserprofile',
+  LEADS: API_URL + '/lead/leads',
+  REVIEWS: API_URL + '/review/reviews',
+  PAYMENTS: API_URL + '/payment/payments',
+  DELETEAGENT: API_URL + '/user/userdelete',
+  DELETEDEVELOPMENT: API_URL + '/development/developmentdelete',
+  DELETEPROPERTY: API_URL + '/property/propertydelete',
+  PROPERTY_PHOTO_UPLOAD: API_URL + '/property/propertyimages',
+  PROPERTY_REGISTRATION_URL: API_URL + '/property/addproperty',
+  PROPERTY_UPDATE_URL: API_URL + '/property/updateproperty',
+  LISTPROPERTY: API_URL + '/property/listproperty',
+  LISTDEVELOPMENT: API_URL + '/development/development',
+  DEVELOPMENT_PHOTO_UPLOAD: API_URL + '/development/developmentimages',
+  DEVELOPMENTBANNER_UPLOAD: API_URL + '/development/bannerimages',
+  ADD_DEVELOPMENT: API_URL + '/development/adddevelopment',
+  UPDATE_DEVELOPMENT: API_URL + '/development/updatedevelopment',
+  AGENT_PHOTA_UPLOAD: API_URL + '/user/upload'
+};

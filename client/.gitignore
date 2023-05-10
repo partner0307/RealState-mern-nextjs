@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+/API/node_modules
+
+# production
+/build
+/build/node_modules
+
+

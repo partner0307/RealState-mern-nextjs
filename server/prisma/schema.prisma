@@ -1,0 +1,121 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model development {
+  id            Int     @id @default(autoincrement())
+  bannerImg     String
+  devName       String
+  area          String
+  zipcode       String
+  city          String
+  description   String
+  propertyType  String
+  buildingType  String
+  completiondate String
+  units         String
+  floors        String
+  areaCity      String
+  developerName String
+  architectName String
+  website       String
+  availavility  String
+  developmentImage String
+}
+
+model leads {
+  id           Int     @id @default(autoincrement())
+  assignedBy   String
+  adminMessage String
+  status       String
+  agentId      String
+  description  String
+  from         String
+  email        String
+  phone        String
+}
+
+model payment {
+  id            Int     @id @default(autoincrement())
+  custId        String
+  customerNName String
+  emailId       String
+  agentType     String
+  phoneNo       String
+  plan          String
+  amount        String
+}
+
+model properties {
+  id               Int     @id @default(autoincrement())
+  address          String
+  locality         String
+  street           String
+  state            String
+  city             String
+  zipcode          String
+  featuredProperty String
+  propertyFor      String
+  propertyType     String
+  thePrice         String
+  securityDeposit  String
+  beds             String
+  baths            String
+  kitchenSize      String
+  buildupArea      String
+  leaseDuration    String
+  serventQuarters  String
+  calling          String
+  appliances       String
+  floorSize        String
+  flooringType     String
+  dateAvailable    String
+  propertyDesc     String
+  accomodation     String
+  plotSize         String
+  yourBuilt        String
+  parking          String
+  services         String
+  nearBylocality   String
+  propertyImages   String
+}
+
+model review {
+  id           Int     @id @default(autoincrement())
+  agentName    String
+  contact      String
+  from         String
+  reviewFrom   String
+  reviewDesc   String
+  knowledge    String
+  responsive   String
+  nrgoation    String
+  punctuality  String
+  approval     String
+  expertise    String
+}
+
+model user {
+  id             Int     @id @default(autoincrement())
+  firstName      String
+  lastName       String
+  contact        String
+  email          String
+  userType       String
+  authenticated  String
+  username       String @unique
+  password       String
+  status         String
+  address        String
+  designation    String
+  experience     String
+  sales          String
+  specialities   String
+  aboutyou       String
+  employee_photo String
+}
